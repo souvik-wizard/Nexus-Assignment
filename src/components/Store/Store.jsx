@@ -18,7 +18,7 @@ SwiperCore.use([ Scrollbar,Autoplay]);
 const Store = () => {
   return (
     <section className='text-black xl:flex xl:w-full xl:justify-between xl:mx-auto xl:mt-56 2xl:mt-40 overflow-hidden'>
-      <div className='flex flex-col w-full px-6 py-20 mx-auto 2xl:pl-12 gap-6 lg:w-[60%] xl:w-[30%] lg:mt-40 xl:mt-0'>
+      <div className='flex flex-col w-full px-6 py-20 mx-auto xl:py-0 2xl:pl-12 gap-6 lg:w-[60%] xl:w-[30%] lg:mt-40 xl:mt-0'>
         <h1 className='text-2xl font-semibold font-jost'>Store locator</h1>
         <p className='text-sm leading-6'>
         Our consultants are available to host you in-store and provide tailored guidance on gift purchases. </p>
