@@ -36,7 +36,7 @@ export default function productCarousel({ productArray,className }) {
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },
-                    1440: {
+                    1536: {
                         slidesPerView: 3,
                         spaceBetween: 30,
                     },
@@ -53,7 +53,7 @@ export default function productCarousel({ productArray,className }) {
                                     width={600}
                                     height={400}
                                     alt="product"
-                                    className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
+                                    className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[420px] lg:min-h-[300px] "
                                 />
                                 <div className="flex flex-col justify-center items-center flex-grow-1">
                                     <h2 className="hover:underline hover:underline-offset-2">

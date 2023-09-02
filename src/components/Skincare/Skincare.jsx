@@ -116,7 +116,7 @@ const Skincare = () => {
               width={300}
               height={300}
               alt="product"
-              className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
+              className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[400px] lg:min-h-[220px] "
             />
             <div className="flex flex-col justify-center items-center flex-grow-1">
               <h2 className="hover:underline hover:underline-offset-2">
@@ -177,7 +177,7 @@ const Skincare = () => {
               width={300}
               height={300}
               alt="product"
-              className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
+              className=" transition-all ease-in-out duration-300  min-w-[420px] min-h-[220px] "
             />
             <div className="flex flex-col justify-center items-center flex-grow-1">
               <h2 className="hover:underline hover:underline-offset-2">

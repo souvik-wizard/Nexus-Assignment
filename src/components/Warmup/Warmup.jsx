@@ -9,10 +9,10 @@ const Warmup = () => {
         <h1 className='text-2xl font-semibold font-jost'>The warm-up </h1>
         <p className='text-sm leading-6'>
           In The Athenaeum, our digital reading room: a guide to ensuring a healthy complexion through the warmer months.</p>
-        <AnimatedButton text={"Read More"} isWidthFull={"lg:true"} className={"hover:text-white xl:w-[60%] hover:bg-secondary border-gray-300  text-black"} />
+        <AnimatedButton text={"Read More"} isWidthFull={"lg:true"} className={"hover:text-white xl:w-[80%] hover:bg-secondary border-gray-300  text-black"} />
       </div>
       <img
-        className="pl-[20px] xl:max-w-[70%]"
+        className="pl-[20px] xl:max-w-[65%]"
         src="/assets/warmup.jpg"
         alt="banner"
       />

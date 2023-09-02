@@ -29,7 +29,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="lg:py-48 2xl:py-60 my-auto lg:pl-16 lg:flex gap-6 justify-center items-start hidden w-full">
+      <div className="lg:py-48 xl:py-40 2xl:py-60 my-auto lg:pl-16 lg:flex gap-6 justify-center items-start hidden w-full">
         <p className={`text-4xl font-semibold tracking-widest font-jost`}>Aēsop</p>
         <div className='flex flex-col mt-0 w-[35%] gap-8 mr-auto ml-[8%]'>
           <p className='text-sm'>Bar Soaps</p>

@@ -11,8 +11,8 @@ const products = [
 
 const Soaps = () => {
   return (
-    <section className='text-black lg:flex lg:w-11/12 lg:mx-auto lg:h-[70vh] 2xl:mt-16'>
-      <div className='flex flex-col w-full px-6 py-20 gap-6 xl:w-[20%] lg:w-[30%] lg:mt-40 xl:mt-0'>
+    <section className='text-black lg:flex lg:w-11/12 lg:mx-auto lg:h-[70vh] lg:mt-40  xl:mt-8'>
+      <div className='flex flex-col w-full px-6 py-20 gap-6 xl:w-[40%] 2xl:w-[25%] lg:w-[30%] xl:mt-0'>
         <p className='text-sm'>For the body</p>
         <h1 className='text-2xl font-semibold font-jost'>An expression of care</h1>
         <p className='text-sm leading-6'>
@@ -22,7 +22,7 @@ const Soaps = () => {
           <AiOutlineArrowRight/>
         </Link>
       </div>
-      <GlobalSwiper className={"lg:translate-y-40"} productArray={products}/>
+      <GlobalSwiper className={"2xl:translate-y-40"} productArray={products}/>
     </section>
   )
 }
