@@ -71,7 +71,7 @@ const AllProducts = () => {
 
           <div className="xl:hidden flex group items-center flex-col lg:p-8 p-4 gap-4 ">
             <Image
-              src="/assets/allproducts.avif"
+              src="/assets/allproducts3.webp"
               width={400}
               height={400}
               alt="product"
