@@ -26,7 +26,8 @@ const AllProducts = () => {
         <p className='text-sm leading-6'>
           Our range of aromatic formulations for the home are practical and pleasing in equal measure.</p>
         <Link href="/" className='flex items-center gap-2'>
-          See all Home          <AiOutlineArrowRight />
+          See all Home
+          <AiOutlineArrowRight />
         </Link>
       </div>
 
@@ -70,9 +71,9 @@ const AllProducts = () => {
 
           <div className="xl:hidden flex group items-center flex-col lg:p-8 p-4 gap-4 ">
             <Image
-              src="/assets/skincare1.png"
-              width={200}
-              height={200}
+              src="/assets/allproducts.avif"
+              width={400}
+              height={400}
               alt="product"
               className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
             />
@@ -90,9 +91,9 @@ const AllProducts = () => {
         <SwiperSlide>
           <div className="flex group items-center flex-col lg:p-8 p-4 gap-4 ">
             <Image
-              src="/assets/skincare3.webp"
-              width={200}
-              height={200}
+              src="/assets/allproducts.avif"
+              width={400}
+              height={400}
               alt="product"
               className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
             />
@@ -110,9 +111,9 @@ const AllProducts = () => {
         <SwiperSlide>
           <div className="flex group items-center flex-col lg:p-8 p-4 gap-4 ">
             <Image
-              src="/assets/skincare2.webp"
-              width={200}
-              height={200}
+              src="/assets/allproducts2.webp"
+              width={400}
+              height={400}
               alt="product"
               className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
             />
@@ -130,9 +131,9 @@ const AllProducts = () => {
         <SwiperSlide>
           <div className="flex group items-center flex-col lg:p-8 p-4 gap-4 ">
             <Image
-              src="/assets/skincare3.webp"
-              width={200}
-              height={200}
+              src="/assets/allproducts.avif"
+              width={400}
+              height={400}
               alt="product"
               className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
             />
@@ -151,9 +152,9 @@ const AllProducts = () => {
         <SwiperSlide>
           <div className="flex group items-center flex-col lg:p-8 p-4 gap-4 ">
             <Image
-              src="/assets/skincare1.png"
-              width={200}
-              height={200}
+              src="/assets/allproducts2.webp"
+              width={400}
+              height={400}
               alt="product"
               className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
             />
@@ -171,9 +172,9 @@ const AllProducts = () => {
         <SwiperSlide>
           <div className="flex group items-center flex-col lg:p-8 p-4 gap-4 ">
             <Image
-              src="/assets/skincare2.webp"
-              width={200}
-              height={200}
+              src="/assets/allproducts3.webp"
+              width={400}
+              height={400}
               alt="product"
               className=" transition-all ease-in-out duration-300 min-h-[200px] min-w-[200px] lg:min-w-[300px] lg:min-h-[300px] "
             />
