@@ -1,12 +1,13 @@
-import './globals.css'
-import { Poppins, Jost, JosefinSans } from 'next/font/google'
-import Navbar from '@/components/Navbar/Navbar'
-import Footer from '@/components/Footer/Footer'
-import MobileNav from '@/components/Navbar/MobileNav'
 import MessageButton from '@/components/FloatingButtons/MessageButton'
+import Footer from '@/components/Footer/Footer'
+import MobFooter from '@/components/Footer/MobFooter'
 import MediumNav from '@/components/Navbar/MediumNav'
-import Head from 'next/head'
+import MobileNav from '@/components/Navbar/MobileNav'
+import Navbar from '@/components/Navbar/Navbar'
 import Notice from '@/components/Notice/Notice'
+import { Jost, Poppins } from 'next/font/google'
+import Head from 'next/head'
+import './globals.css'
 
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['100', '200', '300', '400'] })
@@ -38,8 +39,9 @@ export default function RootLayout({ children }) {
           <MobileNav />
         </div>
         {children}
-        <Footer />
-        {/* <MessageButton /> */}
+        <MobFooter />
+        <Footer/>
+        <MessageButton />
       </body>
     </html>
   )
