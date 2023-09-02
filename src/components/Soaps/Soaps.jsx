@@ -11,7 +11,7 @@ const products = [
 
 const Soaps = () => {
   return (
-    <section className='text-black lg:flex lg:w-11/12 lg:mx-auto lg:h-[70vh] lg:mt-40  xl:mt-8'>
+    <section className='text-black lg:flex lg:w-11/12 lg:mx-auto xl:h-[80vh] lg:mt-40  xl:mt-8'>
       <div className='flex flex-col w-full px-6 py-20 gap-6 xl:w-[40%] 2xl:w-[25%] lg:w-[30%] xl:mt-0'>
         <p className='text-sm'>For the body</p>
         <h1 className='text-2xl font-semibold font-jost'>An expression of care</h1>

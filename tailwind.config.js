@@ -22,6 +22,9 @@ module.exports = {
       fontFamily: {
         jost: ["var(--font-jost)"]
       },
+      screens: {
+        'fhd': '1920px',
+      },
     },
   },
   plugins: [
