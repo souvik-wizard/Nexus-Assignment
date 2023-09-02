@@ -4,9 +4,9 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 import GlobalSwiper from "../ui/GlobalSwiper"
 
 const products = [
-  { name: "Nuture Bar Soap", description: "Offers a mild yet efffective cleanse", image: "/assets/soapimage.avif" },
-  { name: "Nuture Bar Soap", description: "Offers a mild yet efffective cleanse", image: "/assets/soapimage2.avif" },
-  { name: "Nuture Bar Soap", description: "Offers a mild yet efffective cleanse", image: "/assets/soapimage3.avif" },
+  { name: "Nuture Bar Soap", description: "Offers a mild yet efffective cleanse", image: "/assets/soapimage.webp" },
+  { name: "Nuture Bar Soap", description: "Offers a mild yet efffective cleanse", image: "/assets/soapimage2.webp" },
+  { name: "Nuture Bar Soap", description: "Offers a mild yet efffective cleanse", image: "/assets/soapimage3.webp" },
 ]
 
 const Soaps = () => {

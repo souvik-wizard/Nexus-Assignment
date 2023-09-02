@@ -1,6 +1,5 @@
 import React from 'react'
 import AnimatedButton from "@/components/ui/AnimatedButton"
-import Image from 'next/image'
 
 const Warmup = () => {
   return (

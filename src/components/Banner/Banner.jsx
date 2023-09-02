@@ -9,14 +9,14 @@ const Banner = () => {
       <Image
         className="lg:hidden"
         priority
-        src="/assets/bg640.avif"
+        src="/assets/bg640.webp"
         alt="banner"
         width={1920}
         height={1080}
       />
       <img
         className="hidden lg:flex lg:h-screen xl:h-auto absolute -z-10"
-        src="/assets/bg1856.avif"
+        src="/assets/bg1856.webp"
         alt="banner"
       />
 

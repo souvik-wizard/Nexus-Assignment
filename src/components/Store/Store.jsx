@@ -50,7 +50,7 @@ const Store = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={"/assets/store2.avif"}
+            src={"/assets/store2.webp"}
             width={1280}
             height={720}
             alt="store"
@@ -59,7 +59,7 @@ const Store = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={"/assets/store3.avif"}
+            src={"/assets/store3.webp"}
             width={1280}
             height={720}
             alt="store"

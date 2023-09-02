@@ -7,7 +7,7 @@ const ProductOverview = () => {
     <section className='text-black mt-20 xl:flex xl:w-full xl:justify-between xl:mx-auto xl:h-[70vh] xl:mt-48'>
       <img
         className="pr-[20px] xl:max-w-[70%]"
-        src="/assets/overviewimage.avif"
+        src="/assets/overviewimage.webp"
         alt="banner"
       />
       <div className='flex flex-col w-full px-6 py-20 xl:px-32 mx-auto gap-6 lg:w-[60%] xl:w-[40%] '>
