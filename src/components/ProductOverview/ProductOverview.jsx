@@ -10,7 +10,7 @@ const ProductOverview = () => {
         src="/assets/overviewimage.webp"
         alt="banner"
       />
-      <div className='flex flex-col w-full px-6 py-20 2xl:px-32 mx-auto gap-6 lg:w-[60%] xl:w-[40%] '>
+      <div className='flex flex-col w-full px-6 py-20 xl:py-0 2xl:px-32 mx-auto gap-6 lg:w-[60%] xl:w-[40%] '>
         <h1 className='text-2xl font-semibold font-jost'>Post-Poo Drops has returned</h1>
         <p className='text-sm leading-6'>
           Here to make the malodorous melodious once again. Dispense this favoured formulation into the toilet bowl after flushing to effectively mask disagreeable odours.</p>
